@@ -1,10 +1,10 @@
 # ansible-discourse
 
-example repo to provision of a machine to host the discourse platform
+Example scripts showing how to provision of a VM to host Discourse - "a platform for community discussion" (c) Discourse.
 
 ## Requirements
 
-- vagrant (tested with *1.8.1*)
+- Vagrant (tested with *1.8.1*)
 - Ansible (tested with *1.9.3*)
 
 
@@ -101,4 +101,4 @@ scripts/cmd_aws "ls -lh /var/discourse"
 
 # Notes
 
-Ansibles `gather_facts` cannot be disabled.
+Ansible's `gather_facts` cannot be disabled.
